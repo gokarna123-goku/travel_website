@@ -5,3 +5,4 @@ class TourFilter(django_filters.FilterSet):
     class Meta:
         model = Tour
         fields = ['location'] 
+
